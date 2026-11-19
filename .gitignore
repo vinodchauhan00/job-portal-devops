@@ -1,22 +1,3 @@
-# dependencies
 node_modules/
-
-# secrets - NEVER commit
 .env
-.env.*
-!.env.example
-
-# build output
-dist/
-build/
-
-# user uploaded files (use a Docker volume / S3 in production)
-backend/Uploads/*
-!backend/Uploads/.gitkeep
-
-# logs / OS / editor
-*.log
 .DS_Store
-Thumbs.db
-.idea/
-.vscode/
